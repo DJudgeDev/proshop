@@ -1,0 +1,23 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "eCommerce application built with the MERN stack",
+  "homepage": "https://github.com/DJudgeDev/proshop#readme",
+  "bugs": {
+    "url": "https://github.com/DJudgeDev/proshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJudgeDev/proshop.git"
+  },
+  "license": "ISC",
+  "author": "dave.judge",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
